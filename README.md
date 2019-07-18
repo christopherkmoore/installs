@@ -1,6 +1,6 @@
 This will install some stock software for development the easy way. 
 
-*Install.sh* 
+<h3>Install.sh</h3>
 
 Will grab homebrew and subsequntly npm install angular, angularcli, mongo, nestjs, and nestjscli
 
