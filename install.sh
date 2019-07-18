@@ -19,6 +19,8 @@ npm install mongodb
 npm install -g @nestjs/cli
 npm install nestjs
 
+npm install -g swagger
+
 ## postman
 if [ ! -e /Applications/Postman.app/ ] 
 then
