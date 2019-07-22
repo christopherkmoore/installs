@@ -2,7 +2,7 @@
 
 ## install script for setting up homebrew, node and several other useful things
 ## macs don't come preinstalled with
-
+## things to install (for future consideration -- git cli @ git-scm.com/downloads
 
 ## get hombrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
