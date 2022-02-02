@@ -8,6 +8,8 @@ brew install nodejs
 ## get git
 brew install git
 
+## install cocoapods
+brew install cocoapods
 
 ## a bit of terminal coloring
 
