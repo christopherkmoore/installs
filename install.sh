@@ -1,25 +1,18 @@
-#!/bin/bash
-
-## install script for setting up homebrew, node and several other useful things
-## macs don't come preinstalled with
-## things to install (for future consideration -- git cli @ git-scm.com/downloads
 
 ## get hombrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-
-## get some web shiiiit
+## get nodejs
 brew install nodejs
 
-npm install angular
-npm install -g @angular/cli
+## get git
+brew install git
 
-npm install mongodb
 
-npm install -g @nestjs/cli
-npm install nestjs
+## a bit of terminal coloring
 
-npm install -g swagger
+bundled_zshrc.txt >> ~/.zshrc
+
 
 ## postman
 if [ ! -e /Applications/Postman.app/ ] 
@@ -66,7 +59,7 @@ else
    echo -e "\033[96mAlready have Visual Studio Code, skipping... \033[0m"
 fi
 
-# Get GitHub Desktop
+## GitHub Desktop
   
 URL=$(curl -I https://central.github.com/deployments/desktop/desktop/latest/darwin 2>/dev/null | grep "location" | head -1 | cut -c 11-)
 URL=${URL%$'\r'}
