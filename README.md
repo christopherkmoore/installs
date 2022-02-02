@@ -20,3 +20,9 @@ The bundled_zshrc.txt will be used to transfer bash coloring to your ~/.zshrc fi
 
 Edit out anything unwanted with ## comments
 
+
+ToDo
+Download and install xcode. Available from https://xcodereleases.com/data.json
+install xcodetools thru cli
+
+
