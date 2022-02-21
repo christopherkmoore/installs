@@ -92,3 +92,8 @@ then
 else
    echo -e "\033[96mAlready have GitHub Desktop, skipping... \033[0m"
 fi
+
+read -p "Terminal must be closed in order to use new PATH exports. " -n1 -s
+exit
+
+
