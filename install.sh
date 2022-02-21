@@ -13,7 +13,7 @@ brew install cocoapods
 
 ## a bit of terminal coloring
 
-bundled_zshrc.txt >> ~/.zshrc
+cat ~/Downloads/installs-master/bundled_zshrc.txt >> ~/.zshrc
 
 
 ## postman
