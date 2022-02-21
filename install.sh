@@ -94,6 +94,3 @@ else
 fi
 
 read -p "Terminal must be closed in order to use new PATH exports. " -n1 -s
-exit
-
-
