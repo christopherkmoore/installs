@@ -1,6 +1,13 @@
 
 ## get hombrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+read -p "Wait until brew has finished and hit any key to continue... " -n1 -s
+
+## brews new bash installer is super good. You have to run these two commands AFTER the above... (user)
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/christophermoore/.zprofile
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 ## get nodejs
 brew install nodejs
