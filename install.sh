@@ -5,7 +5,7 @@
 read -p "Wait until brew has finished and hit any key to continue... " -n1 -s
 
 ## brews new bash installer is super good. You have to run these two commands AFTER the above... (user)
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/christophermoore/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/${USER}/.zprofile
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
@@ -17,6 +17,9 @@ brew install git
 
 ## install cocoapods
 brew install cocoapods
+
+## I like go.
+brew install go
 
 ## a bit of terminal coloring
 
