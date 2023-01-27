@@ -5,7 +5,7 @@ This will install some stock software for development the easy way.
 Will install cli for
 
 - Brew
-- Node (Butt stuff)
+- Node 
 - Git
 - CocoaPods (iOS Development)
 - Go (I like go for scripting)
